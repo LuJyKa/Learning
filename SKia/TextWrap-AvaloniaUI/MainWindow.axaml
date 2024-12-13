@@ -1,0 +1,14 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:textWrap="clr-namespace:TextWrap"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="TextWrap_AvaloniaUI.MainWindow"
+        Title="TextWrap_AvaloniaUI">
+    <DockPanel>
+        <Slider Name="Slider" DockPanel.Dock="Top" ValueChanged="_Slot_Slider_OnLoaded" Loaded="_Slot_Slider_OnLoaded" Maximum="100" Value="50" SizeChanged="_Slot_Slider_OnSizeChanged"/>
+        <textWrap:SkiaCanvas Name="SkiaCanvas"/>
+        <!--<textWrap:CustomSkiaPage/>-->
+    </DockPanel>
+</Window>
