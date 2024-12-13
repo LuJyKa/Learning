@@ -1,4 +1,4 @@
-ï»¿#include "PCH.h"
+#include "PCH.h"
 
 struct Base
 {
@@ -34,7 +34,7 @@ void myPurecallHandler(void)
     printf("In _purecall_handler.");
 }
 
-TEST(ä¾‹å¤–å‡¦ç†, ä»®æƒ³é–¢æ•°ä¾‹å¤–)
+TEST(—áŠOˆ—, ‰¼‘zŠÖ”—áŠO)
 {
     _set_purecall_handler(myPurecallHandler);
 

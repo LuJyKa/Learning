@@ -164,7 +164,7 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">/utf-8 %(AdditionalOptions)</AdditionalOptions>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">NotUsing</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="例外処理.cpp" />
+    <ClCompile Include="例外処理_仮想関数例外.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="Test_Assembly_ASM.asm">

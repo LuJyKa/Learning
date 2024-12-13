@@ -13,7 +13,6 @@
     <ClCompile Include="Test_Assembly.cpp">
       <Filter>Learn</Filter>
     </ClCompile>
-    <ClCompile Include="例外処理.cpp" />
     <ClCompile Include="Main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
@@ -33,6 +32,9 @@
     <ClCompile Include="Learn\Learn_VTable.cpp">
       <Filter>Learn</Filter>
     </ClCompile>
+    <ClCompile Include="例外処理_仮想関数例外.cpp">
+      <Filter>例外処理</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Main">
@@ -43,6 +45,9 @@
     </Filter>
     <Filter Include="Learn">
       <UniqueIdentifier>{6851b4e1-a209-436a-ba28-527df231fbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="例外処理">
+      <UniqueIdentifier>{cf5869b7-c3db-4422-a665-c1c8d3d367fe}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
