@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="PCH.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_CustomStdAllocator.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Scope.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Assembly.cpp">
+      <Filter>Learn</Filter>
+    </ClCompile>
+    <ClCompile Include="例外処理.cpp" />
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UTF8.cpp" />
+    <ClCompile Include="Test_GS.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_MemoryAccess.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Packages\GoogleTest\src\gtest-all.cc">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\Test_OpenCV.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Learn\Learn_VTable.cpp">
+      <Filter>Learn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{1020d9fa-67fe-4bdd-b73e-d0f05d21aa2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{74d5e99c-202a-4dc5-a630-76bc85f157ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Learn">
+      <UniqueIdentifier>{6851b4e1-a209-436a-ba28-527df231fbad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PCH.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Test_Assembly_ASM.asm">
+      <Filter>Learn</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
