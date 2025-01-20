@@ -17,6 +17,10 @@ namespace TextWrap_AvaloniaUI
             => AppBuilder.Configure<App>()
                 .UseSkia()
                 .UsePlatformDetect()
+                .With(new Win32PlatformOptions()
+                {
+                    RenderingMode = [Win32RenderingMode.AngleEgl],
+                })
                 .WithInterFont()
                 .LogToTrace();
     }

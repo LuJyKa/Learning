@@ -35,6 +35,18 @@
     <ClCompile Include="例外処理_仮想関数例外.cpp">
       <Filter>例外処理</Filter>
     </ClCompile>
+    <ClCompile Include="Learn_ClassConstruct.cpp">
+      <Filter>Learn</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\Test_NVRO.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Learn\Learn_MemoryOrder.cpp">
+      <Filter>Learn</Filter>
+    </ClCompile>
+    <ClCompile Include="Learn\Learn_STD_Variant.cpp">
+      <Filter>Learn</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Main">

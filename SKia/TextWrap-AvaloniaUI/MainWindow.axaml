@@ -8,7 +8,9 @@
         Title="TextWrap_AvaloniaUI">
     <DockPanel>
         <Slider Name="Slider" DockPanel.Dock="Top" ValueChanged="_Slot_Slider_OnLoaded" Loaded="_Slot_Slider_OnLoaded" Maximum="100" Value="50" SizeChanged="_Slot_Slider_OnSizeChanged"/>
-        <textWrap:SkiaCanvas Name="SkiaCanvas"/>
-        <!--<textWrap:CustomSkiaPage/>-->
+        <Panel>
+            <textWrap:SkiaCanvas Name="SkiaCanvas"/>
+            <textWrap:CustomSkiaPage/>
+        </Panel>
     </DockPanel>
 </Window>

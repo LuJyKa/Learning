@@ -34,8 +34,21 @@ void myPurecallHandler(void)
     printf("In _purecall_handler.");
 }
 
+void Slot_OnTerminate()
+{
+    printf("Slot_OnTerminate");
+    // Abnormal program termination (terminate() function was called)
+    // Do something here
+    // Finally, terminate program
+    exit(1);
+}
+
+
 TEST(—áŠOˆ—, ‰¼‘zŠÖ”—áŠO)
 {
+    set_terminate(Slot_OnTerminate);
+
+    terminate();
     _set_purecall_handler(myPurecallHandler);
 
     try

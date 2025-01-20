@@ -23,4 +23,11 @@ EXTERN printf: PROC
 
         ret
     AddAndPrint endp
+
+    public Test_Mov
+    Test_Mov proc
+    mov r11b, cl
+    mov r11b, 28h
+    mov r11d, 64h
+    Test_Mov endp
 end
