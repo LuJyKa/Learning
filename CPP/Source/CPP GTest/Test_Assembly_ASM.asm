@@ -26,8 +26,13 @@ EXTERN printf: PROC
 
     public Test_Mov
     Test_Mov proc
-    mov r11b, cl
-    mov r11b, 28h
-    mov r11d, 64h
+        mov r11b, cl
+        mov r11b, 28h
+        mov r11d, 64h
     Test_Mov endp
+
+    public Test_POPCNT
+    Test_POPCNT proc
+        POPCNT RBX, RCX
+    Test_POPCNT endp
 end
